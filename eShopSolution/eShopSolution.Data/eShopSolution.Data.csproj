@@ -20,4 +20,8 @@
     <ProjectReference Include="..\eShopSolution.WebApp\eShopSolution.WebApp.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="NewFolder\" />
+  </ItemGroup>
+
 </Project>
