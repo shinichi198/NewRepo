@@ -7,7 +7,7 @@ using System.Text;
 
 namespace eShopSolution.Data.Entities
 {
-   public class AppUser:IdentityRole<Guid>
+   public class AppUser:IdentityUser<Guid>
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
